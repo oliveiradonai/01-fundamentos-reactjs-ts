@@ -20,8 +20,8 @@ const posts: Post[] = [
     },
     content: [
       { type: 'paragraph', content: 'Fala galeraa 👋' },
-      { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
-      { type: 'link', content: 'jane.design/doctorcare' }
+      { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portfólio. É um projeto que fiz no Ignite, curso da Rocketseat. O nome do projeto é Ignite Feed 🚀' },
+      { type: 'link', content: 'https://adnfig.me' }
     ],
     publishedAt: new Date('2023-09-05 09:00:00')
   },
@@ -33,9 +33,11 @@ const posts: Post[] = [
       role: "CTO @ Rocketseat"
     },
     content: [
-      { type: 'paragraph', content: 'Fala galeraa 👋' },
-      { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
-      { type: 'link', content: 'jane.design/doctorcare' }
+      { type: 'paragraph', content: 'Estou escrevendo o conteúdo mais completo que já fiz sobre Server Components no React ⚛️' },
+      { type: 'paragraph', content: '◆ Quais problemas estamos resolvendo?' },
+      { type: 'paragraph', content: '◆ Vamos fazer queries do banco de dados nos componentes React?' },
+      { type: 'paragraph', content: '◆ Como isso difere de outras techs como PHP/Ruby?' },
+      { type: 'link', content: 'https://rocketseat.com.br/newsletter' }
     ],
     publishedAt: new Date('2023-09-03 20:00:00')
   },
@@ -47,9 +49,9 @@ const posts: Post[] = [
       role: "Educator @ Rocketseat"
     },
     content: [
-      { type: 'paragraph', content: 'Fala galeraa 👋' },
-      { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
-      { type: 'link', content: 'jane.design/doctorcare' }
+      { type: 'paragraph', content: 'A versão 2.0 vem depois da versão 1.0' },
+      { type: 'paragraph', content: 'Não espere estar na melhor versão para dar resultado!' },
+      { type: 'paragraph', content: 'Faça o mais rápido, dando o seu melhor naquele momento, colha feedbacks e melhore na próxima versão!' },
     ],
     publishedAt: new Date('2023-09-01 20:00:00')
   },

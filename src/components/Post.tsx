@@ -23,7 +23,7 @@ export interface PostProps {
 }
 
 export function Post({ author, publishedAt, content }: PostProps) {
-    const [comments, setComments] = useState<string[]>(['Nossa, que legal!'])
+    const [comments, setComments] = useState<string[]>(['Nossa, que massa!! 🚀'])
     const [newCommentText, setNewCommentText] = useState<string>('')
 
     const publishedDateFormatted = format(publishedAt, "d 'de' LLLL 'às' HH:mm'h'", {
@@ -79,7 +79,7 @@ export function Post({ author, publishedAt, content }: PostProps) {
                     if (line.type === 'paragraph') {
                         return <p key={key}>{line.content}</p>
                     } else if (line.type === 'link') {
-                        return <p key={key}><a href="#">{line.content}</a></p>
+                        return <p key={key}><a href={line.content} target="_blank" rel="noopener noreferrer">{line.content}</a></p>
                     }
                 })}
             </div>
